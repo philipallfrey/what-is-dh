@@ -1,0 +1,17 @@
+{
+  "name": "what-is-dh",
+  "version": "1.0.0",
+  "description": "What is #DigitalHumanities? The Album",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC-BY 4.0",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}

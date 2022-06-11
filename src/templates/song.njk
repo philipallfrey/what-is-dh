@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@dr_pda" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:image" content="/{{ album }}/cover.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <title>{{ title }}</title>
+  </head>
+<body class="song">
+  <nav class="navigation">
+    <ul class="navigation__menu">
+      <li class="navigation__back">&laquo; <a href="../"> Back </a></li>
+      <li class="navigation__home"><a href="/">Home</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+  </nav>
+  <main>
+    <header>
+      <h1>{{ title }}</h1>
+      <h2><em>Original song:</em> {{ original }}</h2>
+      <h2><em>YouTube link:</em> <a href="{{ youTube }} " target="_blank">{{ youTube }}</a></h2>
+      <h2><em>Download:</em> <a href="../tei/{{ page.fileSlug }}.xml">TEI</a></h2>
+    </header>
+    {{ content | safe }}
+  </main>
+  <footer>
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </footer>
+</body>
+</html>

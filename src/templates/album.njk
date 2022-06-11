@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@dr_pda" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:image" content="{{ page.url }}/cover.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <title>{{ title }}</title>
+  </head>
+<body class="album">
+  <nav class="navigation">
+    <ul class="navigation__menu">
+      <li class="navigation__back">&laquo; <a href="/albums"> Back </a></li>
+      <li class="navigation__home"><a href="/">Home</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+  </nav>
+  <header>
+    <img class="album__cover" src="cover.jpg" />
+    <h1>{{ title | striptags(true) | escape | nl2br }}</h1>
+    <h2>{{ subtitle }}</h2>
+    <p class="album__notes"><a href="notes">Album notes</a></p>
+  </header>
+  <main>
+    {{ content | safe }}
+  </main>
+</body>
+</html>

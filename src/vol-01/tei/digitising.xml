@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digitising</title>
+        <author xml:id="PDA">Allfrey, Philip</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0.0">First release</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Philip Allfrey</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">This content is licensed under the Creative Commons Attribution 4.0 International Licence. This allows you to copy, re-use, remix, and redistribute the content provided that you credit the creator (Philip Allfrey) and do not apply additional restrictions.</licence>
+        </availability>
+        <date>June 2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording type="video" dur="PT3M29S">
+            <broadcast source="https://www.youtube.com/watch?v=N000qglmmY0">
+              <bibl>
+                <author>YouTube</author>
+                <title>Dua Lipa - Levitating (Official Animated Music Video)</title>
+                <date when="2021-09-14">14 Sep 2021</date>
+                <respStmt>
+                  <resp>Performed by</resp>
+                  <name>Dua Lipa</name>
+                </respStmt>
+                <respStmt>
+                  <resp>Uploaded by</resp>
+                  <name>Dua Lipa (Official Artist Channel)</name>
+                </respStmt>
+              </bibl>
+            </broadcast>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="front">Contains the front matter of the song</tagUsage>
+          <tagUsage gi="head">Contains the title of the song</tagUsage>
+          <tagUsage gi="body">Contains the body of the song</tagUsage>
+          <tagUsage gi="sp">Marks part of the song sung by the same singer(s) </tagUsage>
+          <tagUsage gi="lg">Marks a sub-section of the song (verse, chorus, etc)</tagUsage>
+          <tagUsage gi="l">Marks a metrical line</tagUsage>
+          <tagUsage gi="p">Marks a paragraph of spoken text</tagUsage>
+          <tagUsage gi="stage">Marks a direction for performance, e.g. repeating a verse</tagUsage>
+          <tagUsage gi="note">Marks an explanatory note</tagUsage>
+          <tagUsage gi="ref">Marks a reference to an external resource</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <projectDesc>
+        <p>What is Digital Humanities? The Album</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+       <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-10" status="published" who="#PDA">Version 1.0.0 released</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <head> Digitising </head>
+    </front>
+    <body>
+      <sp>
+        <lg>
+          <l>If you need a manuscript or three, but! No facsimiles! Just come and see me in the archives</l>
+          <l>I’ll make a reservation and the items will be waiting if you order them up online.<note>Different archives, libraries, or special collections have their own policies on access and ordering material. Prof. Claire Bourne has compiled a useful guide of questions to ask before and during a visit: <ref target="https://www.ofpilcrows.com/blog/2019/3/31/a-working-list-of-questions" >https://www.ofpilcrows.com/blog/2019/3/31/a-working-list-of-questions</ref>, accessed 10 June 2022. </note></l>
+          <l>Glitter in the pounce, glitter by the ounce, shining just the way you like<note>See e.g. Liza Blake, “Pounced Corrections in Oxford Copies of Cavendish’s Philosophical and Physical Opinions; or, Margaret Cavendish’s Glitter Pen”, New College Notes Vol. 10 (2018), no. 6 (<ref target="https://www.new.ox.ac.uk/sites/default/files/2018-12/10NCN6%20%282018%29%20Blake%20on%20Pouncing_0.pdf" >PDF</ref>).</note></l>
+          <l>If you’re feeling like you need a copy as a JPG, you met me at the perfect time</l>
+        </lg>
+
+        <lg>
+          <l>You want them for analysing</l>
+          <l>I got your back, I’m digitising</l>
+          <l>The NEH is subsidising<note>The National Endowment for the Humanities is a major funder of humanities research in the United States of America. This includes digitisation projects, under their Humanities Collections and Reference Resources grants. See <ref target="https://www.neh.gov/grants/preservation/humanities-collections-and-reference-resources" >https://www.neh.gov/grants/preservation/humanities-collections-and-reference-resources</ref>, accessed 10 June 2022.</note></l>
+          <l>yeah, yeah, yeah, yeah, yeah</l>
+        </lg>
+
+        <lg>
+          <l>(I got) UV, white light, raking, back light,</l>
+          <l>I can do multi spectral imaging<note>Normal photographs are taken using white or visible light. Ultraviolet light causes parchment to fluoresce, increasing the contrast with the ink. Raking light (i.e. light shone at an angle to the surface) is useful for recording texture, shininess and other fine detail. Transmitted or back light is useful for viewing watermarks and any holes caused by binding or damage. Multi-spectral imaging refers to using light of multiple frequencies (not necessarily visible) to produce an enhanced image compared to what can be seen by the naked eye.<br/>
+          For a general discussion of these and other digitisation methods see T. R. Hanneken, “Deep Digitization: Considerations and Tools for Imaging Cultural Heritage Beyond the Basics.” Digital Humanities Conference 2019, Utrecht. <ref target="https://jubilees.stmarytx.edu/thanneken/2019/DH2019_Utrecht-paper.html" >https://jubilees.stmarytx.edu/thanneken/2019/DH2019_Utrecht-paper.html</ref>, accessed 10 June 2022.</note></l>
+          <l>I’m digitising</l>
+        </lg>
+        <stage>(repeat)</stage>
+
+        <lg>
+          <l>These images are valuable; they illustrate materiality and should be shared online</l>
+          <l>We can make them findable, accessible, reusable,<note>Best practice for sharing data is summarised by the FAIR principles: data should be findable, accessible, interoperable, and reusable. See <ref target="https://www.go-fair.org/fair-principles/" >https://www.go-fair.org/fair-principles/</ref>, accessed 10 June 2022.</note> with IIIF APIs<note>The International Image Interoperability Framework (pronounced triple eye eff) defines a set of standards for sharing images online. These standards are expressed as Application Programming Interfaces, i.e. the formats and functionality that a IIIF-compatible service must provide. See <ref target="https://iiif.io" >https://iiif.io/</ref>, accessed 10 June 2022.</note></l>
+          <l>Meta-data here, meta-data there, ISAD(G) 4 life!<note>The General International Standard Archival Description. See <ref target="https://www.ica.org/en/isadg-general-international-standard-archival-description-second-edition" >https://www.ica.org/en/isadg-general-international-standard-archival-description-second-edition</ref>, accessed 10 June 2022.</note></l>
+          <l>Let’s circulate to scholars so instead of spending dollars they can use our copies day or night</l>
+        </lg>
+
+        <lg>
+          <l>You want them for analysing</l>
+          <l>I got your back, I’m digitising</l>
+          <l>The NEH is subsidising</l>
+          <l>yeah, yeah, yeah, yeah, yeah</l>
+        </lg>
+
+        <lg>
+          <l>(I got) UV, white light, raking, back light,</l>
+          <l>I can do multi spectral imaging</l>
+          <l>I’m digitising</l>
+        </lg>
+        <stage>(repeat)</stage>
+
+        <lg>
+          <l>I can help you build a static site<note>The Endings Project recommends that for long-term sustainability, project websites should not depend on server-side functionality (e.g. databases, scripts). See <ref target="https://endings.uvic.ca/principles.html" >https://endings.uvic.ca/principles.html</ref>, accessed 10 June 2022 </note></l>
+          <l>I can help you build a static site</l>
+          <l>Cause the long-term maintenance is slight</l>
+          <l>yeah yeah yeah yeah yeah</l>
+          <l>(I’m digitising)</l>
+        </lg>
+        <stage>(repeat)</stage>
+
+        <lg>
+          <l>The studio’s so cold I want a parka<note>Reading rooms or archival repositories are often climate controlled, to preserve the documents they contain. This is often a lower temperature than is comfortable for people working there. Prof. Megan Cook started a crowdsourced spreadsheet "How Cold Is That Library" for researchers to share their experience and provide advice on what to bring or wear. See <ref target="https://docs.google.com/spreadsheets/d/1Jeb1W-VZuuCSWpRd0tBragq0er57V7DAJg_D3ajwrmo/edit#gid=941395214">https://docs.google.com/spreadsheets/d/1Jeb1W-VZuuCSWpRd0tBragq0er57V7DAJg_D3ajwrmo/edit#gid=941395214</ref></note></l>
+          <l>When I’m digitising there I freeze my ass off</l>
+          <l>But even if I wanted to I can’t stop</l>
+          <l>yeah yeah yeah yeah yeah</l>
+        </lg>
+        <stage>(repeat)</stage>
+
+        <lg>
+          <l>You want them for analysing</l>
+          <l>I got your back, I’m digitising</l>
+          <l>The NEH is subsidising</l>
+        </lg>
+
+        <lg>
+          <l>I got UV, white light, raking, back light,</l>
+          <l>I can do multi spectral imaging</l>
+          <l>I’m digitising</l>
+        </lg>
+
+        <lg>
+          <l>I can help you build a static site</l>
+          <l>I can help you build a static site</l>
+          <l>Cause the long-term maintenance is slight</l>
+          <l>yeah yeah yeah yeah yeah</l>
+          <l>(I’m digitising)</l>
+        </lg>
+        <stage>(repeat)</stage>
+
+        <lg>
+          <l>(I got) UV, white light, raking, back light,</l>
+          <l>I can do multi spectral imaging</l>
+          <l>I’m digitising</l>
+        </lg>
+        <stage>(repeat)</stage>
+      </sp>
+    </body>
+  </text>
+</TEI>

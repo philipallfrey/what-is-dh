@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>My first DHSI</title>
+        <author xml:id="PDA">Allfrey, Philip</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0.0">First release</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Philip Allfrey</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">This content is licensed under the Creative Commons Attribution 4.0 International Licence. This allows you to copy, re-use, remix, and redistribute the content provided that you credit the creator (Philip Allfrey) and do not apply additional restrictions.</licence>
+        </availability>
+        <date>June 2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording type="video" dur="PT3M44S">
+            <broadcast source="https://www.youtube.com/watch?v=EWYpXfAzbrc">
+              <bibl>
+                <author>YouTube</author>
+                <title>“In a Crowd of Thousands” Music Video | ANASTASIA The Musical</title>
+                <date when="2017-10-27">Oct 27, 2017</date>
+                <respStmt>
+                  <resp>Performed by</resp>
+                  <name>Christy Altomare</name>
+                  <name>Derek Klena</name>
+                </respStmt>
+                <respStmt>
+                  <resp>Music and lyrics by</resp>
+                  <name>Stephen Flaherty</name>
+                  <name>Lynn Ahrens</name>
+                </respStmt>
+                <respStmt>
+                  <resp>Uploaded by</resp>
+                  <name>Anastasia The Musical</name>
+                </respStmt>
+              </bibl>
+            </broadcast>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="front">Contains the front matter of the song</tagUsage>
+          <tagUsage gi="head">Contains the title of the song</tagUsage>
+          <tagUsage gi="body">Contains the body of the song</tagUsage>
+          <tagUsage gi="sp">Marks part of the song sung or said by the same singer(s) </tagUsage>
+          <tagUsage gi="lg">Marks a sub-section of the song (verse, chorus, etc)</tagUsage>
+          <tagUsage gi="l">Marks a metrical line</tagUsage>
+          <tagUsage gi="spGrp">Marks a group of utterances by different speakers</tagUsage>
+          <tagUsage gi="p">Marks a paragraph of spoken text</tagUsage>
+          <tagUsage gi="stage">Marks a direction for performance, e.g. repeating a verse</tagUsage>
+          <tagUsage gi="note">Marks an explanatory note</tagUsage>
+          <tagUsage gi="ref">Marks a reference to an external resource</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <projectDesc>
+        <p>What is Digital Humanities? The Album</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+       <language ident="en">English</language>
+      </langUsage>
+      <particDesc>
+        <p>This song is a duet between
+          <list>
+            <item xml:id="scholar1">
+              <name>Scholar 1</name>
+            </item>
+            <item xml:id="scholar2">
+              <name>Scholar 2</name>
+            </item>
+          </list>
+        </p>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-10" status="published" who="#PDA">Version 1.0.0 released</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <head> My first DHSI </head>
+    </front>
+    <body>
+      <sp who="#scholar1">
+        <lg>
+          <l>It was June</l>
+          <l>Twenty-ten</l>
+          <l>I still think of those days now and then</l>
+          <l>My first DHSI<note>The Digital Humanities Summer Institute, a training event for people working in the Digital Humanties, has been held annually at the University of Victoria, BC, Canada since 2001. See <ref target="https://dhsi.org">https://dhsi.org</ref>, accessed 10 June 2022. </note></l>
+          <l>And the cluster housing<note>Participants usually stay in on-campus accommodation. Cluster housing units have four bedrooms, and participants often advertise for housemates befire DHSI starts. See <ref target="https://dhsi.org/accommodation">https://dhsi.org/accommodation</ref>, accessed 10 June 2022.</note></l>
+        </lg>
+
+        <lg>
+          <l>Start at eight</l>
+          <l>Grab caffeine</l>
+          <l>Read some tweets from jotis13<note>Dr Jessica Otis (Twitter handle <ref target="https://twitter.com/jotis13">@jotis13</ref>) as well as being a prolific DHSI tweeter has also analysed patterns of tweeting during DHSI. See <ref target="https://jessicaotis.com/digital-humanities/rise-and-fall-of-the-dhsi-twitterati/">https://jessicaotis.com/digital-humanities/rise-and-fall-of-the-dhsi-twitterati/</ref>, accessed 10 June 2022.</note></l>
+          <l>Pass the ferns, spot a deer<note>Various flora and fauna can be spotted on campus. Previous DHSI participants have made Twitter accounts for <ref target="https://twitter.com/DHSI_fern">@DHSI_fern</ref>, <ref target="https://twitter.com/DHSI_Deer">@DHSI_Deer</ref>, <ref target="https://twitter.com/DHSIPinecone">@DHSIPinecone</ref>, <ref target="https://twitter.com/DHSI_Bunny">@DHSI_Bunny</ref>, <ref target="https://twitter.com/DHSI_Raven">@DHSI_Raven</ref>, and <ref target="https://twitter.com/DHSI_Crow">@DHSI_Crow</ref>, among others.</note></l>
+          <l>Leaving cluster housing</l>
+        </lg>
+
+        <lg>
+          <l>And I started to learn</l>
+          <l>How to program in R<note> R is a programming language and environment optimised for statistical analysis and producing graphs. See <ref target="https://www.r-project.org/">https://www.r-project.org/</ref>, accessed 10 June 2022.</note></l>
+          <l>Trying all the commands allowed</l>
+          <l>When I finally got it installed</l>
+          <l>I was so proud</l>
+        </lg>
+
+        <lg>
+          <l>And the class carried on</l>
+          <l>With an expert to help me along</l>
+          <l>But I knew even then</l>
+          <l>(If I got the funding)</l>
+          <l>I’d come back again.</l>
+        </lg>
+      </sp>
+
+      <stage>(spoken)</stage>
+      <spGrp>
+        <sp who="#scholar2">
+          <p>You’re making me feel I was there too.</p>
+        </sp>
+        <sp who="#scholar1">
+          <p>Maybe you were. Make it part of your story.</p>
+        </sp>
+      </spGrp>
+
+      <sp who="#scholar2">
+        <lg>
+          <l>My first DHSI</l>
+          <l>It was hot, not a cloud in the sky</l>
+          <l>Then a crow caught my eye</l>
+          <l>Coming from MacLaurin<note>"So I was walking away from MacLaurin, &amp; this dude flew past me from behind…almost as if they were coming from MacLaurin too.… It’s @dhsi_crow—they *were* in the auditorium! #DHSI19", Tweet from Maria Chappell (@MariaAChappell), 15 June 2019, <ref target="https://twitter.com/MariaAChappell/status/1139645641297190912">https://twitter.com/MariaAChappell/status/1139645641297190912</ref>, accessed 10 June 2022</note></l>
+        </lg>
+
+        <lg>
+          <l>He was black</l>
+          <l>Not too clean</l>
+          <l>There were trees, but he dodged in between</l>
+          <l>Yes, he made himself seen</l>
+          <l>Coming from MacLaurin.</l>
+        </lg>
+
+        <lg>
+          <l>Then he spied the Nanaimo bar next to my cup<note>A quintessentially Canadian three-layer slice. See <ref target="https://en.wikipedia.org/wiki/Nanaimo_bar">https://en.wikipedia.org/wiki/Nanaimo_bar</ref>, accessed 10 June 2022. </note></l>
+          <l>And he started to hop towards–</l>
+          <l>So I stuffed the last piece in my mouth</l>
+          <l>And then he cawed</l>
+        </lg>
+      </sp>
+
+      <spGrp>
+        <stage>(spoken)</stage>
+        <sp who="#scholar1">
+          <p>I didn’t tell you that!</p>
+        </sp>
+        <sp who="#scholar2">
+          <p>You didn’t have to. I remember!</p>
+        </sp>
+      </spGrp>
+
+      <sp who="#scholar1 #scholar2">
+        <lg>
+          <l>DHSI was done</l>
+          <l>With my laptop in hand I was gone</l>
+          <l>But I knew even then</l>
+          <l>(If I got the funding)</l>
+          <l>I’d come back again.</l>
+        </lg>
+      </sp>
+
+      <stage>(spoken)</stage>
+      <sp who="#scholar1">
+        <p>Alyssa<note>Alyssa Arbuckle, Co-director DHSI. See <ref target="https://www.alyssaarbuckle.com/">https://www.alyssaarbuckle.com/</ref></note></p>
+      </sp>
+
+    </body>
+  </text>
+</TEI>
