@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Topic modelling theme</title>
+        <author xml:id="PDA">Allfrey, Philip</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0.0">First release</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Philip Allfrey</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">This content is licensed under the Creative Commons Attribution 4.0 International Licence. This allows you to copy, re-use, remix, and redistribute the content provided that you credit the creator (Philip Allfrey) and do not apply additional restrictions.</licence>
+        </availability>
+        <date>August 2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording type="video" dur="PT1M04S">
+            <broadcast source="https://www.youtube.com/watch?v=nqZ_Cb2slBw">
+              <bibl>
+                <author>YouTube</author>
+                <title>DuckTales - Theme Song | Disney+ Throwbacks | Disney+</title>
+                <date when="2020-04-29">29 Apr 2020</date>
+                <respStmt>
+                  <resp>Uploaded by</resp>
+                  <name>Disney Plus</name>
+                </respStmt>
+              </bibl>
+            </broadcast>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="front">Contains the front matter of the song</tagUsage>
+          <tagUsage gi="head">Contains the title of the song</tagUsage>
+          <tagUsage gi="body">Contains the body of the song</tagUsage>
+          <tagUsage gi="sp">Marks part of the song sung by the same singer(s) </tagUsage>
+          <tagUsage gi="lg">Marks a sub-section of the song (verse, chorus, etc)</tagUsage>
+          <tagUsage gi="l">Marks a metrical line</tagUsage>
+          <tagUsage gi="note">Marks an explanatory note</tagUsage>
+          <tagUsage gi="ref">Marks a reference to an external resource</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <projectDesc>
+        <p>What is Digital Humanities? The Album</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+       <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-08-21" status="published" who="#PDA">Version 1.0.0 released</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <head> Topic modelling theme </head>
+    </front>
+    <body>
+      <sp>
+        <lg>
+          <l>Need some help with distant reading? <note>“Distant reading ... is set in opposition to the form of literary analysis known as close reading. Instead of focusing on textual minutiae, distant reading focuses on the generalities of a text or texts, often via computational means.” Scott B. Weingart, Susan Grunewald, Matthew Lincoln et al. (eds.). The Digital Humanities Literacy Guidebook. Carnegie Mellon University, updated April 03, 2022. <ref target="https://cmu-lib.github.io/dhlg/topics/#topic_distantreading">https://cmu-lib.github.io/dhlg/topics/#topic_distantreading</ref></note></l>
+          <l>Topic modelling!</l>
+          <l>“Race cars, lasers, aeroplanes”</l>
+          <l>That's a topic <note>Topic modelling calculates the probability that each word in a text belongs to a topic. A common form of output is the list of top keywords for each topic.</note></l>
+        </lg>
+
+        <lg>
+          <l>It works for fishery <note>Osmar J Luiz, et al, “Trait-based ecology of fishes: A quantitative assessment of literature trends and knowledge gaps using topic modelling”, Fish and Fisheries (2019) 20, 1100–1110 <ref target="https://onlinelibrary.wiley.com/doi/abs/10.1111/faf.12399">https://onlinelibrary.wiley.com/doi/abs/10.1111/faf.12399</ref></note></l>
+          <l>And legal history <note>P. Grajzl and P. Murrell, “Using Topic-Modeling in Legal History, with an Application to Pre-Industrial English Case Law on Finance”. Law and History Review (2022), 40(2), 189-228. <ref target="https://doi.org/10.1017/S0738248022000153">https://doi.org/10.1017/S0738248022000153</ref></note></l>
+          <l>Topic modelling!</l>
+          <l>Woo-hoo!</l>
+          <l>Texts are combinations of N topics <note>Topic modelling assumes that the each text in a corpus is made up of a mixture of N possible topics. The number N must be chosen by the modeller. Different values for N will result in different topics.</note></l>
+          <l>Woo-hoo!</l>
+          <l>To find the right proportions use statistics</l>
+        </lg>
+
+        <lg>
+          <l>D-D-Dirichlet allocation <note>Latent Dirichlet Allocation (LDA) is a popular algorithm for topic modelling. It was introduced in David M. Blei, Andrew Y. Ng, and Michael I. Jordan. “Latent dirichlet allocation”. Journal of Machine Learning Research (2003) 3, 993–1022. <ref target="https://dl.acm.org/doi/10.5555/944919.944937">https://dl.acm.org/doi/10.5555/944919.944937</ref></note></l>
+          <l>Is useful for this situation</l>
+          <l>How to use it?</l>
+          <l>Read the ProgHist lesson <note>The Programming Historian (<ref target="https://twitter.com/ProgHist">@ProgHist</ref> on Twitter) has a tutorial on how to use MALLET, a popular topic modelling tool. It is not necessary to fully understand the LDA algorithm to use MALLET. Shawn Graham, Scott Weingart, and Ian Milligan, "Getting Started with Topic Modeling and MALLET," Programming Historian 1 (2012), <ref target="https://doi.org/10.46430/phen0017">https://doi.org/10.46430/phen0017.</ref> </note></l>
+          <l>Woo-hoo!</l>
+        </lg>
+
+        <lg>
+          <l>MALLET gives you keywords in a table</l>
+          <l>Woo-hoo!</l>
+          <l>Which you must interpret and hand-label <note>Each topic in a topic model need manual evaluation to determine whether it is a coherent topic (not a statistical artifact), and if so what it represents.</note></l>
+          <l>Woo-hoo!</l>
+          <l>Then run again, with different N <note>The optimal number of topics will depend on the size of the corpus, and the research question. While there are statistical methods for choosing a number, usually it is simpler to run a topic model with different numbers of topics, and compare the output. See e.g. Maria Antoniak, Topic Modelling for the People (2022) <ref target="https://maria-antoniak.github.io/2022/07/27/topic-modeling-for-the-people.html#test-different-numbers-of-topics">https://maria-antoniak.github.io/2022/07/27/topic-modeling-for-the-people.html#test-different-numbers-of-topics</ref></note></l>
+          <l>to cross-check</l>
+          <l>Woo-hoo!</l>
+        </lg>
+      </sp>
+    </body>
+  </text>
+</TEI>

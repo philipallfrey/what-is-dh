@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Annotate!</title>
+        <author xml:id="PDA">Allfrey, Philip</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0.0">First release</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Philip Allfrey</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">This content is licensed under the Creative Commons Attribution 4.0 International Licence. This allows you to copy, re-use, remix, and redistribute the content provided that you credit the creator (Philip Allfrey) and do not apply additional restrictions.</licence>
+        </availability>
+        <date>August 2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording type="video" dur="PT1M04S">
+            <broadcast source="https://www.youtube.com/watch?v=3GwjfUFyY6M">
+              <bibl>
+                <author>YouTube</author>
+                <title>Kool &amp; The Gang - Celebration</title>
+                <date when="2009-10-06">6 Oct 2009</date>
+                <respStmt>
+                  <resp>Performed by</resp>
+                  <name>Kool &amp; The Gang</name>
+                </respStmt>
+                <respStmt>
+                  <resp>Uploaded by</resp>
+                  <name>KoolandthegangShow</name>
+                </respStmt>
+              </bibl>
+            </broadcast>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="front">Contains the front matter of the song</tagUsage>
+          <tagUsage gi="head">Contains the title of the song</tagUsage>
+          <tagUsage gi="body">Contains the body of the song</tagUsage>
+          <tagUsage gi="sp">Marks part of the song sung by the same singer(s) </tagUsage>
+          <tagUsage gi="lg">Marks a sub-section of the song (verse, chorus, etc)</tagUsage>
+          <tagUsage gi="l">Marks a metrical line</tagUsage>
+          <tagUsage gi="note">Marks an explanatory note</tagUsage>
+          <tagUsage gi="ref">Marks a reference to an external resource</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <projectDesc>
+        <p>What is Digital Humanities? The Album</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+       <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-08-21" status="published" who="#PDA">Version 1.0.0 released</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <head> Annotate! </head>
+    </front>
+    <body>
+      <sp>
+        <lg>
+          <l>Yahoo!</l>
+          <l>Social annotation <note>Social annotation is the annotation of the same copy of a text by multiple people, either synchronously or asynchronously, so that each person can see, and respond to, the annotations of others. This is often implemented on web-based platforms such as Hypothesis <ref target="https://web.hypothes.is/">https://web.hypothes.is/</ref></note></l>
+          <l>Yahoo!</l>
+          <l>Social annotation</l>
+        </lg>
+
+        <lg>
+          <l>Annotate those texts, come on</l>
+          <l>Let’s annotate</l>
+          <l>Annotate those texts, come on</l>
+          <l>Let’s annotate</l>
+        </lg>
+
+        <lg>
+          <l>Scholarship is going on right here</l>
+          <l>Annotations to last throughout the years</l>
+          <l>So bring your disciplinary knowledge too</l>
+          <l>We gonna annotate and research with you, come on now</l>
+        </lg>
+
+        <lg>
+          <l>Annotation</l>
+          <l>Let’s all annotate and have a good time</l>
+          <l>Annotation</l>
+          <l>We gonna annotate and have a good time</l>
+          <l>It’s time to come together</l>
+          <l>Enthusiasts <note>The volunteers for “Citizen Science” projects, such as those hosted on <ref target="https://zooniverse.org">zooniverse.org</ref>, are not necessarily domain experts, yet still make meaningful contributions to research through classification or annotation tasks.</note></l>
+          <l>To professors</l>
+          <l>Everyone around the world, come on</l>
+        </lg>
+
+        <lg>
+          <l>Yahoo!</l>
+          <l>Social annotation</l>
+          <l>Yahoo!</l>
+        </lg>
+
+        <lg>
+          <l>Annotate those texts, come on</l>
+          <l>Social annotation</l>
+          <l>Annotate those texts, come on</l>
+          <l>Let’s annotate</l>
+        </lg>
+
+        <lg>
+          <l>Scholarship is going on right here</l>
+          <l>Annotations to last throughout the years</l>
+          <l>So bring your disciplinary knowledge too</l>
+          <l>We gonna annotate and research with you, come on now</l>
+        </lg>
+
+        <lg>
+          <l>Annotation</l>
+          <l>Let’s all annotate and have a good time</l>
+          <l>Annotation</l>
+          <l>We gonna annotate and have a good time</l>
+          <l>It’s time to come together</l>
+          <l>Enthusiasts</l>
+          <l>To professors</l>
+          <l>Everyone around the world, come on</l>
+        </lg>
+
+        <lg>
+          <l>Yahoo!</l>
+          <l>Social annotation</l>
+          <l>Yahoo!</l>
+          <l>Social annotation</l>
+        </lg>
+
+        <lg>
+          <l>Annotate those texts, come on</l>
+          <l>Let’s annotate, come on now</l>
+          <l>Annotate those texts, come on</l>
+          <l>Let’s annotate</l>
+        </lg>
+
+        <lg>
+          <l>We’re gonna have a good data set</l>
+          <l>Let’s annotate, no regrets</l>
+          <l>We’re gonna have a good data set</l>
+          <l>Let’s annotate, no regrets</l>
+        </lg>
+        <stage>(repeat)</stage>
+      </sp>
+    </body>
+  </text>
+</TEI>
