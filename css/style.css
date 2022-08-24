@@ -351,6 +351,11 @@ blockquote:before {
   color: #fff;
 }
 
+.single {
+  background: #daa520;
+  color: #333;
+}
+
 footer {
   font-size: 0.75em;
   font-style: italic;

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Topic modelling theme</title>
+        <author xml:id="PDA">Allfrey, Philip</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0.0">First release</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Philip Allfrey</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">This content is licensed under the Creative Commons Attribution 4.0 International Licence. This allows you to copy, re-use, remix, and redistribute the content provided that you credit the creator (Philip Allfrey) and do not apply additional restrictions.</licence>
+        </availability>
+        <date>August 2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording type="video" dur="PT4M07S">
+            <broadcast source="https://www.youtube.com/watch?v=nqmWljOnFao">
+              <bibl>
+                <author>YouTube</author>
+                <title>I am the very model of a modern Major-General, Gilbert &amp; Sullivan</title>
+                <date when="2014-02-04">4 Feb 2014</date>
+                <respStmt>
+                  <resp>Sung by</resp>
+                  <name>James Smith</name>
+                </respStmt>
+                <respStmt>
+                  <resp>Accompanied by</resp>
+                </respStmt>
+                <respStmt>
+                  <resp>Chorus</resp>
+                  <name>Frank Hughes</name>
+                  <name>Michael Alworth</name>
+                  <name>Adam Melchor</name>
+                  <name>John McLean</name>
+                  <name>Sara Kropoth</name>
+                  <name>Elaine Thoman</name>
+                  <name>Giana Iannuzzi.</name>
+                </respStmt>
+                <respStmt>
+                  <resp>Lyrics by</resp>
+                  <name>W.S. Gilbert</name>
+                </respStmt>
+                <respStmt>
+                  <resp>Music by</resp>
+                  <name>Arthur Sullivan</name>
+                </respStmt>
+                <respStmt>
+                  <resp>Recorded, edited, and uploaded by</resp>
+                  <name>Rodney Leinberger</name>
+                </respStmt>
+              </bibl>
+            </broadcast>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="front">Contains the front matter of the song</tagUsage>
+          <tagUsage gi="head">Contains the title of the song</tagUsage>
+          <tagUsage gi="body">Contains the body of the song</tagUsage>
+          <tagUsage gi="sp">Marks part of the song sung by the same singer(s) </tagUsage>
+          <tagUsage gi="lg">Marks a sub-section of the song (verse, chorus, etc)</tagUsage>
+          <tagUsage gi="l">Marks a metrical line</tagUsage>
+          <tagUsage gi="note">Marks an explanatory note</tagUsage>
+          <tagUsage gi="ref">Marks a reference to an external resource</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <projectDesc>
+        <p>What is Digital Humanities? The Album</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+       <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-08-22" status="published" who="#PDA">Version 1.0.0 released</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <head> Recogito </head>
+    </front>
+    <body>
+      <sp>
+        <lg>
+          <l>Semantic annotation’s very easy with Recogito <note>Recogito (<ref target="https://recogito.pelagios.org/">https://recogito.pelagios.org/</ref>) is an open-source tool that allows people to mark and annotate texts and images, and export their annotations in machine-readable format without needing to learn XML or other languages.</note></l>
+          <l>You just upload a text file – how about the Visigothic Code? <note>The Visigothic Code, promulgated by Recceswinth in 654 AD, was the first law code to apply equally to the Roman and Gothic subjects of the Visigothic kingdom. Previously they were governed by separate sets of laws.</note></l>
+          <l>To tag a person, place, event, or judgement editorial</l>
+          <l>Just follow the instructions in the ten minute tutorial <note><ref target="https://recogito.pelagios.org/help/tutorial">https://recogito.pelagios.org/help/tutorial</ref>, also available in languages other than English.</note></l>
+        </lg>
+
+        <lg>
+          <l>It’s very well adapted too for annotating images</l>
+          <l>The “linked box” tool is excellent for marking where each village is <note>The “Linked box” tool allows one to highlight a place name on a map, and link it to a marker representing the physical location. See <ref target="https://recogito.pelagios.org/help/tutorial#linked-box">https://recogito.pelagios.org/help/tutorial#linked-box</ref>.</note></l>
+          <l>The interface for drawing polygons is simply glorious</l>
+          <l>To use it standalone download the library Annotorious <note>Recogito developer <ref target="https://rainersimon.io/">Rainer Simon</ref> has extracted the image annotation functionality into a stand-alone Javascript library called Annotorious (<ref target="https://recogito.github.io/annotorious/">https://recogito.github.io/annotorious/</ref>).</note></l>
+        </lg>
+
+        <lg>
+          <l>Another thing that you can do is annotate relationships</l>
+          <l>A pair of clicks and you can mark Iolcos home to Jason’s ship <note>Recogito allows annotation of relationships between two words/phrases in a text. E.g. if  Jason's ship the <em>Argo</em> was mentioned in the same text as her home port Iolcos, one could highlight both words and add a line between them with the label “Home”. See <ref target="https://recogito.pelagios.org/help/relations">https://recogito.pelagios.org/help/relations</ref>.</note></l>
+          <l>This software simplifies things, like the early Visigothic Code</l>
+          <l>Semantic annotation’s very easy with Recogito</l>
+        </lg>
+
+        <lg>
+          <l>But Geoannotation is the area it works the best <note>See 5:53 of this introductory video to Recogito <ref target="https://youtu.be/Qdb8Ds9ayts?t=353">https://youtu.be/Qdb8Ds9ayts?t=353</ref></note></l>
+          <l>With gazetteers and NER to auto-tag but just suggest <note>Recogito supports Named Entity Recognition (NER) in several languages for automatically flagging names of people, places, etc. For places it further tries to match them against several gazetteers with different temporal or geographic scope.</note></l>
+          <l>It will not overwhelm you like the Emperor Heliogabalus <note>In one infamous incident the Roman Emperor Heliogabalus is alleged to have buried guests at a dinner party under flowers dropped from a false ceiling, smothering some of them. See e.g. <ref target="https://en.wikipedia.org/wiki/The_Roses_of_Heliogabalus">https://en.wikipedia.org/wiki/The_Roses_of_Heliogabalus</ref>.</note></l>
+          <l>The manual confirmation means you pick the right Tarabulus <note>Tarabulus (Arabic: طرابلس) is the Arabic name of Tripoli and can refer to the city in either Libya or Lebanon.</note></l>
+        </lg>
+
+        <lg>
+          <l>Now Recogito online is free but you will find a quota set</l>
+          <l>200 megs is fine for text, but not archival photo sets <note>A standard account on the Recogito server has a quota of 200MB. See <ref target="https://recogito.pelagios.org/help/faq#user-quota">https://recogito.pelagios.org/help/faq#user-quota</ref> This is likely to be insufficient for projects annotating or transcribing text from many high-resolution images.</note></l>
+          <l>You could self-host an instance if you’re rich like John Minet Fector <note>Because Recogito is open-source software, one way of getting a larger quota is to run it on your own server. This has ongoing costs both for the server and for maintenance/system administration. John Minet Fector was an 19th century English banker. See <ref target="https://en.wikipedia.org/wiki/John_Minet_Fector">https://en.wikipedia.org/wiki/John_Minet_Fector</ref></note></l>
+          <l>But this is just the situation IIIF’s perfect for <note>The International Image Interoperability Framework (IIIF, pronounced triple eye eff) defines a set of standards for sharing images online. In particular it allows high-resolution images to be used online without needing to host your own copy.</note></l>
+        </lg>
+
+        <lg>
+          <l>If your research involves translating Babylonic cuneiform</l>
+          <l>You can import a manifest from CUNE-IIIF-ORM <note>CUNE-IIIF-ORM is a research project with the goal, among other things, of making the cuneiform collection of the Royal Museum of Arts and History available via IIIF. See <ref target="https://www.kmkg-mrah.be/en/scientific-research/cune-iiif-orm">https://www.kmkg-mrah.be/en/scientific-research/cune-iiif-orm</ref>.</note></l>
+          <l>This software simplifies things, like the early Visigothic Code</l>
+          <l>Semantic annotation’s very easy with Recogito</l>
+        </lg>
+
+        <lg>
+          <l>In fact if you don’t know what’s meant by “mamelon” or “ravelin” <note>Mamelon: “A rounded eminence or hillock.” (OED <em>mamelon</em>, n. 1). Ravelin: “Fortification. A detached outwork, constructed beyond the main ditch and in front of the curtain, and consisting of two faces forming a salient angle.” (OED <em>ravelin</em> n.1, 1)</note></l>
+          <l>Recogito’s not single player, you can invite Pavel in</l>
+          <l>And grant him write permission to update the page you’re staring at <note>Recogito allows you to grant other users permission to read or collaborate on annotating your documents. See <ref target="https://recogito.pelagios.org/help/tutorial#invite">https://recogito.pelagios.org/help/tutorial#invite</ref>.</note></l>
+          <l>By entering his username “Wallachian Hospodariat” <note>The governors of the provinces of Wallachia and Moldavia under the Ottoman Porte were known as “Hospodars”, and their jurisdiction as “Hospodariats” (OED, <em>hospodar</em>, n).</note></l>
+        </lg>
+
+        <lg>
+          <l>When you have annotated everything that you are able to,</l>
+          <l>And you desire to have your annotations in a table too,</l>
+          <l>Some exports are in beta but you can download a CSV</l>
+          <l>Or GeoJSON, Markdown, Spacy, RDF, or IOB <note>Recogito supports exports of annotations in several formats, including CSV (a spreadsheet), GeoJSON (structured key-value pairs of geographic information), Markdown (a form of rich text), Spacy and IOB (formats for Named Entity Recognition algorithms), and RDF (linked data).</note></l>
+        </lg>
+
+        <lg>
+          <l>While my own Linked Data knowledge is alas yet rudimentary</l>
+          <l>(I don’t do pointy brackets although I was born this century) <note>The tagline for Recogito is “Semantic annotation without the pointy brackets.” The reference to being born this century alludes to the problematic idea that “digital natives” have a greater level of technical skill than their elders.</note></l>
+          <l>This software simplifies things, like the early Visigothic Code</l>
+          <l>Semantic annotation’s very easy with Recogito</l>
+        </lg>
+      </sp>
+    </body>
+  </text>
+</TEI>
