@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digitising</title>
+        <author xml:id="PDA">Allfrey, Philip</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0.0">First release</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Philip Allfrey</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">This content is licensed under the Creative Commons Attribution 4.0 International Licence. This allows you to copy, re-use, remix, and redistribute the content provided that you credit the creator (Philip Allfrey) and do not apply additional restrictions.</licence>
+        </availability>
+        <date>June 2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording type="video" dur="PT3M29S">
+            <broadcast source="https://www.youtube.com/watch?v=9AEoUa0Hlso">
+              <bibl>
+                <author>YouTube</author>
+                <title>KT Tunstall - Suddenly I See (Official Video)</title>
+                <date when="2009-02-27">27 Feb 2009</date>
+                <respStmt>
+                  <resp>Performed by</resp>
+                  <name>KT Tunstall</name>
+                </respStmt>
+                <respStmt>
+                  <resp>Uploaded by</resp>
+                  <name>kttunstallofficial</name>
+                </respStmt>
+              </bibl>
+            </broadcast>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="front">Contains the front matter of the song</tagUsage>
+          <tagUsage gi="head">Contains the title of the song</tagUsage>
+          <tagUsage gi="body">Contains the body of the song</tagUsage>
+          <tagUsage gi="sp">Marks part of the song sung by the same singer(s) </tagUsage>
+          <tagUsage gi="lg">Marks a sub-section of the song (verse, chorus, etc)</tagUsage>
+          <tagUsage gi="l">Marks a metrical line</tagUsage>
+          <tagUsage gi="p">Marks a paragraph of spoken text</tagUsage>
+          <tagUsage gi="stage">Marks a direction for performance, e.g. repeating a verse</tagUsage>
+          <tagUsage gi="note">Marks an explanatory note</tagUsage>
+          <tagUsage gi="ref">Marks a reference to an external resource</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <projectDesc>
+        <p>What is Digital Humanities? The Album</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+       <language ident="en">English</language>
+      </langUsage>
+      <particDesc>
+        <p>This song is primarily sung by a <person xml:id="scholar"><name>Scholar</name></person>. The chorus is a dialogue with their <person xml:id="collaborators"><name>Collaborators</name></person>.
+        </p>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2023-04-06" status="published" who="#PDA">Version 1.0.0 released</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <head> Epistolary </head>
+    </front>
+    <body>
+      <sp who="#scholar">
+        <lg>
+          <l>Her friends form a map of her world</l>
+          <l>Form a map of her world</l>
+          <l>You can see she’s a popular girl</l>
+          <l>She’s a popular girl</l>
+          <l>Everyone around her wants to pick up pen and write</l>
+          <l>Their choice of correspondent sheds a little bit of light on things they share</l>
+          <l>Her ego-network is beyond compare <note>“Ego-centric networks (or shortened to ‘ego’ networks) are a particular type of network which specifically maps the connections of and from the perspective of a single person (an ‘ego’).” <ref target="https://sciences.social/@omarlizardo">Omar Lizardo</ref> &amp; Isaac Jilbert (2021), “Social Networks: An introduction”, <ref target="https://bookdown.org/omarlizardo/_main/2-10-ego-centric-networks.html">https://bookdown.org/omarlizardo/_main/2-10-ego-centric-networks.html</ref>, accessed 5 April 2023.</note></l>
+        </lg>
+      </sp>
+
+      <spGrp>
+        <sp who="#scholar">
+          <l>Epistolary</l>
+        </sp>
+        <sp who="#collaborators">
+          <l>(epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Networks: in or out degree? <note> The “degree” of a node in a network is the number of other nodes connected to it. In a directed network one can also distinguish between indegree (number of inbound links) and outdegree (number of outbound links). In an epistolary network, the indegree of a person would be the number of letters received, and outdegree would be the number of letters sent. See e.g. Martin Grandjean and Mathieu Jacomy (2019), “Translating Networks: Assessing correspondence between network visualisation and analytics”, Digital Humanities 2019, <ref target="https://serval.unil.ch/resource/serval:BIB_31E33B306611.P001/REF">https://serval.unil.ch/resource/serval:BIB_31E33B306611.P001/REF</ref>, accessed 5 April 2023.
+</note></l>
+        </sp>
+        <sp who="#scholar">
+          <l>Epistolary</l>
+        </sp>
+        <sp who="#collaborators">
+          <l>(epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Networks: What’s the best centrality? <note>
+          There are several ways of measuring how central a node is to a network: <list>
+            <item>Degree centrality: number of connections to other nodes</item>
+            <item>Betweenness centrality: number of times on the shortest route between two nodes</item>
+            <item>Closeness centrality: average length of the shortest routes to all other nodes</item>
+            <item>Eigenvector or PageRank centrality: proximity to well-connected nodes </item>
+            </list> See e.g. Grandjean and Jacomy (above, note 2).</note></l>
+        </sp>
+        <sp who="#collaborators">
+          <l>(epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Networks: in or out degree?</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Epistolary</l>
+        </sp>
+        <sp who="#collaborators">
+          <l>(epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Networks: What’s  the best centrality?</l>
+        </sp>
+      </spGrp>
+
+      <sp who="#scholar">
+        <lg>
+          <l>Her friends’ friends are all round the world</l>
+          <l>Friends are all round the world</l>
+          <l>And they read she’s a popular girl</l>
+          <l>She’s a popular girl</l>
+          <l>She’s one node in their network of superlative degree</l>
+          <l>Reciprocal connections make her part of multiple communities</l>
+          <l>Their density approaches unity <note> The density of a network is the number of edges (connections between nodes) divided by the number of possible edges. A network with a density of one means every node is connected to every other node. See e.g. <ref target="https://sciences.social/@omarlizardo">Omar Lizardo</ref> &amp; Isaac Jilbert (2021), “Social Networks: An introduction”, <ref target="https://bookdown.org/omarlizardo/_main/2-9-density.html">https://bookdown.org/omarlizardo/_main/2-9-density.html</ref>, accessed 5 April 2023.</note></l>
+        </lg>
+      </sp>
+
+      <spGrp>
+        <sp who="#scholar">
+          <l>Epistolary</l>
+        </sp>
+        <sp who="#collaborators">
+          <l>(epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Networks: in or out degree?</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Epistolary</l>
+        </sp>
+        <sp who="#collaborators">
+          <l>(epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Networks: What’s the best centrality?</l>
+        </sp>
+        <sp who="#collaborators">
+          <l>(epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Networks: in or out degree?</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Epistolary</l>
+        </sp>
+        <sp who="#collaborators">
+          <l>(epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Networks: What’s  the best centrality?</l>
+        </sp>
+      </spGrp>
+
+      <sp who="#scholar">
+        <lg>
+          <l>And she’s part of the core <note> A network may be divided into a “core and a periphery, such that there are dense connections within the core and sparse connections within the periphery.” Andrew Elliott, Angus Chiu, Marya Bazzi, Gesine Reinert and Mihai Cucuringu (2020) “Core–periphery structure in directed networks”, <em>Proceedings of the Royal Society A.</em> 476: 20190783, <ref target="https://doi.org/10.1098/rspa.2019.0783">https://doi.org/10.1098/rspa.2019.0783</ref>, accessed 5 April 2023.</note></l>
+          <l>But not part of a clique <note> A clique is the largest subset of a network in which all the members are connected to all the other members.  See e.g. Robert A. Hanneman (2005), “Introduction to social network methods”, <ref target="https://faculty.ucr.edu/~hanneman/nettext/C11_Cliques.html">https://faculty.ucr.edu/~hanneman/nettext/C11_Cliques.html</ref>, accessed 5 April 2023. </note></l>
+          <l>Yet she’s got a high, very high, betweenness centrality  <note>A node with high betweenness centrality “[connects] otherwise separated groups of nodes.” Martin Grandjean and Mathieu Jacomy (2019), “Translating Networks: Assessing correspondence between network visualisation and analytics”, Digital Humanities 2019, <ref target="https://serval.unil.ch/resource/serval:BIB_31E33B306611.P001/REF">https://serval.unil.ch/resource/serval:BIB_31E33B306611.P001/REF</ref>, p.8, accessed 5 April 2023.</note></l>
+          <l>Like Magliabechi she’s a knowledge broker <note>Florentine librarian Antonio Magliabechi (1633–1714) was a key information broker in the Republic of Letters. See Ingeborg van Vugt (2022), “Networking in the Republic of Letters: Magliabechi and the Dutch Republic”, <em>The Journal of Interdisciplinary History</em> 53(1): 117–141 <ref target="https://doi.org/10.1162/jinh_a_01800">https://doi.org/10.1162/jinh_a_01800</ref>, accessed 5 April 2023.</note></l>
+          <l>A knowledge broker yeah</l>
+          <l>She shares with A, she learns from B</l>
+          <l>She gatekeeps C, yeah, yeah</l>
+        </lg>
+      </sp>
+
+      <spGrp>
+        <sp who="#collaborators">
+          <l>(Epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>She opts to share with A, to learn from B</l>
+          <l>To gatekeep C, yeah, yeah</l>
+        </sp>
+      </spGrp>
+      <stage>(repeat)</stage>
+
+      <spGrp>
+        <sp who="#scholar">
+          <l>Epistolary</l>
+        </sp>
+        <sp who="#collaborators">
+          <l>(epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Networks: in or out degree?</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Epistolary</l>
+        </sp>
+        <sp who="#collaborators">
+          <l>(epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Networks: What’s the best centrality?</l>
+        </sp>
+        <sp who="#collaborators">
+          <l>(epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Networks: in or out degree?</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Epistolary</l>
+        </sp>
+        <sp who="#collaborators">
+          <l>(epistolary)</l>
+        </sp>
+        <sp who="#scholar">
+          <l>Networks: What’s  the best centrality?</l>
+        </sp>
+      </spGrp>
+    </body>
+  </text>
+</TEI>

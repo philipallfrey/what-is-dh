@@ -299,7 +299,7 @@ dt, dt + dd {
   line-height: 1.333;
 }
 
-.song .text-list li + li {
+.song .text-list > li + li {
   margin-top: 1.25em;
 }
 
