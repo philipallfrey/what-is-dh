@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Huma-Num</title>
+        <author xml:id="PDA">Allfrey, Philip</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0.0">First release</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Philip Allfrey</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">This content is licensed under the Creative Commons Attribution 4.0 International Licence. This allows you to copy, re-use, remix, and redistribute the content provided that you credit the creator (Philip Allfrey) and do not apply additional restrictions.</licence>
+        </availability>
+        <date>June 2023</date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording type="video" dur="PT3M11S">
+            <broadcast source="https://www.youtube.com/watch?v=7B4CLQGxHmI">
+              <bibl>
+                <author>YouTube</author>
+                <title>Les Champs-Elysées | Joe Dassin | Pomplamoose ft. John Schroeder</title>
+                <date when="2020-01-03">3 Jan 2020</date>
+                <respStmt>
+                  <resp>Performed by</resp>
+                  <name>Pomplamoose ft. John Schroeder</name>
+                </respStmt>
+                <respStmt>
+                  <resp>Uploaded by</resp>
+                  <name>PomplamooseMusic</name>
+                </respStmt>
+              </bibl>
+            </broadcast>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="front">Contains the front matter of the song</tagUsage>
+          <tagUsage gi="head">Contains the title of the song</tagUsage>
+          <tagUsage gi="body">Contains the body of the song</tagUsage>
+          <tagUsage gi="sp">Marks part of the song sung by the same singer(s) </tagUsage>
+          <tagUsage gi="lg">Marks a sub-section of the song (verse, chorus, etc). @copyOf attribute is used to indicate repeated sub-sections. @corresp attribute is used to link French and English versions of sub-sections</tagUsage>
+          <tagUsage gi="l">Marks a metrical line. @corresp attribute is used to link French and English versions of lines.</tagUsage>
+          <tagUsage gi="note">Marks an explanatory note</tagUsage>
+          <tagUsage gi="ref">Marks a reference to an external resource</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <projectDesc>
+        <p>What is Digital Humanities? The Album</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+       <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2023-06-11" status="published" who="#PDA">Version 1.0.0 released</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <head> Huma-Num </head>
+    </front>
+    <body>
+      <sp xml:lang="fra">
+        <lg xml:id="fra01" corresp="#eng01">
+          <l xml:id="fra01-01" corresp="#eng01-01">Huma-Num point f r<note>Huma-Num and its associated website <ref target="https://huma-num.fr">https://huma-num.fr</ref> provides digital research infrastructure for French-speaking researchers in the social sciences and humanities. See <ref target="https://documentation.huma-num.fr/humanum-en/">https://documentation.huma-num.fr/humanum-en/</ref>.</note></l>
+          <l xml:id="fra01-02" corresp="#eng01-02">Huma-Num point f r</l>
+          <l xml:id="fra01-03" corresp="#eng01-03">Au soleil, sous la pluie</l>
+          <l xml:id="fra01-04" corresp="#eng01-04">À midi ou à minuit</l>
+          <l xml:id="fra01-05" corresp="#eng01-05">Il y a tout ce que vous voulez sur</l>
+          <l xml:id="fra01-06" corresp="#eng01-06">Huma-Num</l>
+        </lg>
+
+        <lg xml:id="fra02" corresp="#eng02">
+          <l xml:id="fra02-01" corresp="#eng02-01">Une infrastructure de recherche</l>
+          <l xml:id="fra02-02" corresp="#eng02-02">Avec étoile,<note>In France very large research infrastructures, such as Huma-Num, are denoted IR* (infrastructure de recherche étoile).</note> aussi une perche</l>
+          <l xml:id="fra02-03" corresp="#eng02-03">(Le marque de son moteur de recherche, Isidore)</l>
+          <l xml:id="fra02-04" corresp="#eng02-04">Et Isidore est un poisson</l>
+          <l xml:id="fra02-05" corresp="#eng02-05">Qui trouve les données et moisonne</l>
+          <l xml:id="fra02-06" corresp="#eng02-06">En Espagnol, Anglais,</l>
+          <l xml:id="fra02-07" corresp="#eng02-07">Et bien sur en Francais.<note>The search engine Isidore (<ref target="https://isidore.science">https://isidore.science</ref>) harvests social science and humanities data and documents in French, Spanish, and English, and enriches them with standardised metadata. These can be accessed via a keyword search or as Linked Data via a SPARQL endpoint. See <ref target="https://isidore.science/about">https://isidore.science/about</ref>.</note></l>
+        </lg>
+
+        <lg xml:id="fra03" copyOf="#fra01" corresp="#eng03">
+        </lg>
+
+        <lg xml:id="fra04" corresp="#eng04">
+          <l xml:id="fra04-01" corresp="#eng04-01">Pour partager et publier,</l>
+          <l xml:id="fra04-02" corresp="#eng04-01">et valoriser vos données</l>
+          <l xml:id="fra04-03" corresp="#eng04-01">Vous pouvez utiliser l’entrepôt Nakala.<note>The data warehouse Nakala is another service provided by Huma-Num. See <ref target="https://www.nakala.fr/about">https://www.nakala.fr/about</ref>.</note></l>
+          <l xml:id="fra04-04" corresp="#eng04-01">Attribué un DOI<note>Data or documents made publically available in Nakala are automatically assigned a Document Object Identifier (DOI). See <ref target="https://documentation.huma-num.fr/nakala/#attribution-dun-doi-a-une-donnee-publique">https://documentation.huma-num.fr/nakala/#attribution-dun-doi-a-une-donnee-publique</ref>.</note></l>
+          <l xml:id="fra04-05" corresp="#eng04-01">Accès aussi par API<note>Nakala can be accessed via API if one has a HumanID account, the centralised authentication service for Huma-Num. See <ref target="https://documentation.huma-num.fr/nakala/#depot-par-lapi">https://documentation.huma-num.fr/nakala/#depot-par-lapi</ref>.</note></l>
+          <l xml:id="fra04-06" corresp="#eng04-01">Public, privée, metadonnées! Le koala a tout.<note>When depositing data in Nakala, one can choose to make it public or private. Nakala also supports the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH). The logo of Nakala is a koala. See <ref target="https://documentation.huma-num.fr/nakala/#moissonnage-des-metadonnees">https://documentation.huma-num.fr/nakala/#moissonnage-des-metadonnees</ref></note></l>
+        </lg>
+
+        <lg xml:id="fra05" copyOf="#fra01" corresp="#eng05">
+        </lg>
+      </sp>
+
+      <sp xml:lang="eng">
+        <lg xml:id="eng01" corresp="#fra-01">
+          <l xml:id="eng01-01" corresp="#fra-01-01">Huma-Num dot f r<note>Huma-Num and its associated website <ref target="https://huma-num.fr">https://huma-num.fr</ref> provides digital research infrastructure for French-speaking researchers in the social sciences and humanities. See <ref target="https://documentation.huma-num.fr/humanum-en/">https://documentation.huma-num.fr/humanum-en/</ref>.</note></l>
+          <l xml:id="eng01-02" corresp="#fra-01-02">Huma-Num dot f r</l>
+          <l xml:id="eng01-03" corresp="#fra-01-03">In the sun, in the rain</l>
+          <l xml:id="eng01-04" corresp="#fra-01-04">At midnight or midday</l>
+          <l xml:id="eng01-05" corresp="#fra-01-05">There's everything that you could want at</l>
+          <l xml:id="eng01-06" corresp="#fra-01-06">Huma-Num.</l>
+        </lg>
+
+        <lg xml:id="eng02" corresp="#fra-02">
+          <l xml:id="eng02-01" corresp="#fra-02-01">A research infrastructure </l>
+          <l xml:id="eng02-02" corresp="#fra-02-02">With a star,<note>In France very large research infrastructures, such as Huma-Num, are denoted IR* (infrastructure de recherche étoile).</note> and a perch too</l>
+          <l xml:id="eng02-03" corresp="#fra-02-03">(The logo of its search engine, Isidore)</l>
+          <l xml:id="eng02-04" corresp="#fra-02-04">And Isidore is a fish</l>
+          <l xml:id="eng02-05" corresp="#fra-02-05">Who finds data and harvests it</l>
+          <l xml:id="eng02-06" corresp="#fra-02-06">In Spanish, English,</l>
+          <l xml:id="eng02-07" corresp="#fra-02-07">And of course in French.<note>The search engine Isidore (<ref target="https://isidore.science">https://isidore.science</ref>) harvests social science and humanities data and documents in French, Spanish, and English, and enriches them with standardised metadata. These can be accessed via a keyword search or as Linked Data via a SPARQL endpoint. See <ref target="https://isidore.science/about">https://isidore.science/about</ref>.</note></l>
+        </lg>
+
+        <lg xml:id="eng03" copyOf="#eng01" corresp="#fra03">
+        </lg>
+
+        <lg xml:id="eng04" corresp="#fra-04">
+          <l xml:id="eng04-01" corresp="#fra-04-01">To share and publish</l>
+          <l xml:id="eng04-02" corresp="#fra-04-02">And enrich your data</l>
+          <l xml:id="eng04-03" corresp="#fra-04-03">You can use the Nakala repository.<note>The data warehouse Nakala is another service provided by Huma-Num. See <ref target="https://www.nakala.fr/about">https://www.nakala.fr/about</ref>.</note></l>
+          <l xml:id="eng04-04" corresp="#fra-04-04">Get assigned a DOI<note>Data or documents made publicly available in Nakala are automatically assigned a Document Object Identifier (DOI). See <ref target="https://documentation.huma-num.fr/nakala/#attribution-dun-doi-a-une-donnee-publique">https://documentation.huma-num.fr/nakala/#attribution-dun-doi-a-une-donnee-publique</ref>.</note></l>
+          <l xml:id="eng04-05" corresp="#fra-04-05">Access via API<note>Nakala can be accessed via API if one has a HumanID account, the centralised authentication service for Huma-Num. See <ref target="https://documentation.huma-num.fr/nakala/#depot-par-lapi">https://documentation.huma-num.fr/nakala/#depot-par-lapi</ref></note></l>
+          <l xml:id="eng04-06" corresp="#fra-04-06">Public, private, metadata! The koala has it all.<note>When depositing data in Nakala, one can choose to make it public or private. Nakala also supports the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH). The logo of Nakala is a koala. See <ref target="https://documentation.huma-num.fr/nakala/#moissonnage-des-metadonnees">https://documentation.huma-num.fr/nakala/#moissonnage-des-metadonnees</ref></note></l>
+        </lg>
+
+        <lg xml:id="eng05" copyOf="#eng01" corresp="#fra05">
+        </lg>
+      </sp>
+    </body>
+  </text>
+</TEI>

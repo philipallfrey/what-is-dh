@@ -18,7 +18,11 @@
 <body class="song">
   <nav class="navigation">
     <ul class="navigation__menu">
+      {% if back %}
+      <li class="navigation__back">&laquo; <a href="{{ back }}">Back</a></li>
+      {% else %}
       <li class="navigation__back">&laquo; <a href="../"> Back </a></li>
+      {% endif %}
       <li class="navigation__home"><a href="/">Home</a></li>
       <li><a href="/about/">About</a></li>
     </ul>
@@ -28,7 +32,11 @@
       <h1>{{ title }}</h1>
       <h2><em>Original song:</em> {{ original }}</h2>
       <h2><em>YouTube link:</em> <a href="{{ youTube }} " target="_blank">{{ youTube }}</a></h2>
+      {% if tei %}
+      <h2><em>Download:</em> <a href="/{{ album }}/tei/{{ tei }}.xml">TEI</a></h2>
+      {% else %}
       <h2><em>Download:</em> <a href="../tei/{{ page.fileSlug }}.xml">TEI</a></h2>
+      {% endif %}
     </header>
     {{ content | safe }}
   </main>
