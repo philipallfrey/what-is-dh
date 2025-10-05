@@ -67,6 +67,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
+      <change when="2022-06-10" status="published" who="#PDA">Links fixed</change>
       <change when="2022-06-10" status="published" who="#PDA">Version 1.0.0 released</change>
     </revisionDesc>
   </teiHeader>
@@ -88,16 +89,16 @@
     <body>
       <sp>
         <lg>
-          <l>Show an ogham or<note>ᚖ (U+1696), <a href="https://graphemica.com/1696">https://graphemica.com/1696</a></note></l>
-          <l>Show a little yus<note>ѧ (U+0467), <a href="https://graphemica.com/0467">https://graphemica.com/0467</a></note></l>
-          <l>Add an ogonek<note>˛ (U+02DB), <a href="https://graphemica.com/02DB">https://graphemica.com/02DB</a></note></l>
+          <l>Show an ogham or<note>ᚖ (U+1696), <ref target="https://graphemica.com/1696">https://graphemica.com/1696</ref></note></l>
+          <l>Show a little yus<note>ѧ (U+0467), <ref target="https://graphemica.com/0467">https://graphemica.com/0467</ref></note></l>
+          <l>Add an ogonek<note>˛ (U+02DB), <ref target="https://graphemica.com/02DB">https://graphemica.com/02DB</ref></note></l>
           <l>Unicode Burlesque!</l>
         </lg>
 
         <lg>
           <l>Every script you dream of</l>
           <l>Including hieroglyphs</l>
-          <l>In one encoding scheme:<note>The Unicode Consortium (<a href="https://home.unicode.org/">https://home.unicode.org/</a>) manages the Unicode character encoding scheme, which has the goal of associating a unique identifier (Unicode code point) to every character used in living (and some dead) languages to facilitate digital interoperability. The Egpytian Hieroglyphs block covers Unicode code points U+13000 to U+1342F. See <a href="https://graphemica.com/blocks/egyptian-hieroglyphs">https://graphemica.com/blocks/egyptian-hieroglyphs</a></note></l>
+          <l>In one encoding scheme:<note>The Unicode Consortium (<ref target="https://home.unicode.org/">https://home.unicode.org/</ref>) manages the Unicode character encoding scheme, which has the goal of associating a unique identifier (Unicode code point) to every character used in living (and some dead) languages to facilitate digital interoperability. The Egpytian Hieroglyphs block covers Unicode code points U+13000 to U+1342F. See <ref target="https://graphemica.com/blocks/egyptian-hieroglyphs">https://graphemica.com/blocks/egyptian-hieroglyphs</ref></note></l>
           <l>Unicode Burlesque!</l>
         </lg>
 
@@ -117,13 +118,13 @@
         </lg>
 
         <lg>
-          <l>You can dream of Dodo<note>🦤 (U+1F9A4), <a href="https://graphemica.com/1F9AA4">https://graphemica.com/1F9A4</a></note></l>
+          <l>You can dream of Dodo<note>🦤 (U+1F9A4), <ref target="https://graphemica.com/%F0%9F%A6%A4">https://graphemica.com/%F0%9F%A6%A4</ref></note></l>
           <l>Use it at your risk</l>
-          <l>The triple underdot is<note>&#8424; (U+20E8), <a href="https://graphemica.com/20E8">https://graphemica.com/20E8</a></note></l>
-          <l>Not an ellipsis<note>… (U+2026), <a href="https://graphemica.com/2026">https://graphemica.com/2026</a></note></l>
+          <l>The triple underdot is<note>&#8424; (U+20E8), <ref target="https://graphemica.com/20E8">https://graphemica.com/20E8</ref></note></l>
+          <l>Not an ellipsis<note>… (U+2026), <ref target="https://graphemica.com/2026">https://graphemica.com/2026</ref></note></l>
           <l>Cyrillic keeps you guessing</l>
-          <l>O multiocular<note>ꙮ (U+A66E), <a href="https://graphemica.com/A6EE">https://graphemica.com/A6EE</a></note></l>
-          <l>Elifi’s in Georgian<note>ჸ (U+10F8), <a href="https://graphemica.com/10F8">https://graphemica.com/10F8</a> </note></l>
+          <l>O multiocular<note>ꙮ (U+A66E), <ref target="https://graphemica.com/A66E">https://graphemica.com/A66E</ref></note></l>
+          <l>Elifi’s in Georgian<note>ჸ (U+10F8), <ref target="https://graphemica.com/10F8">https://graphemica.com/10F8</ref> </note></l>
           <l>Unicode Burlesque!</l>
         </lg>
 
@@ -137,9 +138,9 @@
 
         <lg>
           <l>Something used in Batak</l>
-          <l>Is bindu na metek<note>᯼ (U+1BFC), <a href="https://graphemica.com/1BFC">https://graphemica.com/1BFC</a>. See also <a href="https://r12a.github.io/scripts/batk/btk.html#phrase">https://r12a.github.io/scripts/batk/btk.html#phrase</a> for more on the role of bindu in the Batak script.</note></l>
+          <l>Is bindu na metek<note>᯼ (U+1BFC), <ref target="https://graphemica.com/1BFC">https://graphemica.com/1BFC</ref>. See also <ref target="https://r12a.github.io/scripts/batk/btk.html#phrase">https://r12a.github.io/scripts/batk/btk.html#phrase</ref> for more on the role of bindu in the Batak script.</note></l>
           <l>It starts a verse that ends</l>
-          <l>With bindu pangolat<note>᯿ (U+1BFF), <a href="https://graphemica.com/1BFF">https://graphemica.com/1BFF</a></note></l>
+          <l>With bindu pangolat<note>᯿ (U+1BFF), <ref target="https://graphemica.com/1BFF">https://graphemica.com/1BFF</ref></note></l>
         </lg>
 
         <lg>
