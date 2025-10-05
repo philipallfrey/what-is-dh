@@ -24,12 +24,14 @@
                 <author>YouTube</author>
                 <title>I am the very model of a modern Major-General, Gilbert &amp; Sullivan</title>
                 <date when="2014-02-04">4 Feb 2014</date>
+                <note>Recording of performance on <date when="2014-02-01">1 Feb 2014</date></note>
                 <respStmt>
                   <resp>Sung by</resp>
                   <name>James Smith</name>
                 </respStmt>
                 <respStmt>
                   <resp>Accompanied by</resp>
+                  <name>Steven Ryan</name>
                 </respStmt>
                 <respStmt>
                   <resp>Chorus</resp>
@@ -82,6 +84,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
+      <change when="2025-10-06" status="published" who="#PDA">Added missing accompanist name in sourceDesc</change>
       <change when="2022-08-22" status="published" who="#PDA">Version 1.0.0 released</change>
     </revisionDesc>
   </teiHeader>

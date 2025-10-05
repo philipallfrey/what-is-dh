@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digitising</title>
+        <author xml:id="PDA">Allfrey, Philip</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0.0">First release</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Philip Allfrey</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">This content is licensed under the Creative Commons Attribution 4.0 International Licence. This allows you to copy, re-use, remix, and redistribute the content provided that you credit the creator (Philip Allfrey) and do not apply additional restrictions.</licence>
+        </availability>
+        <date>October 2025</date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording type="video" dur="PT2M40S">
+            <broadcast source="https://www.youtube.com/watch?v=N000qglmmY0">
+              <bibl>
+                <author>YouTube</author>
+                <title>Cher - Welcome to Burlesque (Audio)</title>
+                <date when="2012-01-18">18 Jan 2012</date>
+                <respStmt>
+                  <resp>Performed by</resp>
+                  <name>Cher</name>
+                </respStmt>
+                <respStmt>
+                  <resp>Uploaded by</resp>
+                  <name>burlesque</name>
+                </respStmt>
+              </bibl>
+            </broadcast>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="front">Contains the front matter of the song</tagUsage>
+          <tagUsage gi="head">Contains the title of the song</tagUsage>
+          <tagUsage gi="body">Contains the body of the song</tagUsage>
+          <tagUsage gi="sp">Marks part of the song sung by the same singer(s) </tagUsage>
+          <tagUsage gi="lg">Marks a sub-section of the song (verse, chorus, etc)</tagUsage>
+          <tagUsage gi="l">Marks a metrical line</tagUsage>
+          <tagUsage gi="note">Marks an explanatory note</tagUsage>
+          <tagUsage gi="ref">Marks a reference to an external resource</tagUsage>
+          <tagUsage gi="cit">Marks a cited quotation</tagUsage>
+          <tagUsage gi="quote">Marks an quotation</tagUsage>
+          <tagUsage gi="p">Marks a paragraph</tagUsage>
+          <tagUsage gi="bibl">Marks an unstructured bibliographic reference</tagUsage>
+          <tagUsage gi="author">Marks an author in a bibliographic reference</tagUsage>
+          <tagUsage gi="date">Marks a date</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <projectDesc>
+        <p>What is Digital Humanities? The Album</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+       <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-10" status="published" who="#PDA">Version 1.0.0 released</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <head> Digitising </head>
+      <note>This song was inspired by the following post on social media:
+        <cit>
+          <quote>
+            <p>Musing about the multi-ocular O ꙮ the thought flitted across my mind that a #Unicode #burlesque show would be a lot of fun. And I write it here so that mine isn't the only imagination this idea now lives in.</p>
+          </quote>
+          <bibl ref="https://mstdn.social/@quinnanya/110992397122535375">
+            <author>Quinn Dombrowski</author>
+            <date when="2023-09-02">2 Sep 2023</date>
+          </bibl>
+        </cit>
+      </note>
+    </front>
+    <body>
+      <sp>
+        <lg>
+          <l>Show an ogham or<note>ᚖ (U+1696), <a href="https://graphemica.com/1696">https://graphemica.com/1696</a></note></l>
+          <l>Show a little yus<note>ѧ (U+0467), <a href="https://graphemica.com/0467">https://graphemica.com/0467</a></note></l>
+          <l>Add an ogonek<note>˛ (U+02DB), <a href="https://graphemica.com/02DB">https://graphemica.com/02DB</a></note></l>
+          <l>Unicode Burlesque!</l>
+        </lg>
+
+        <lg>
+          <l>Every script you dream of</l>
+          <l>Including hieroglyphs</l>
+          <l>In one encoding scheme:<note>The Unicode Consortium (<a href="https://home.unicode.org/">https://home.unicode.org/</a>) manages the Unicode character encoding scheme, which has the goal of associating a unique identifier (Unicode code point) to every character used in living (and some dead) languages to facilitate digital interoperability. The Egpytian Hieroglyphs block covers Unicode code points U+13000 to U+1342F. See <a href="https://graphemica.com/blocks/egyptian-hieroglyphs">https://graphemica.com/blocks/egyptian-hieroglyphs</a></note></l>
+          <l>Unicode Burlesque!</l>
+        </lg>
+
+        <lg>
+          <l>Oh!</l>
+          <l>Everyone is writing</l>
+          <l>With their glyphs and accidence</l>
+          <l>If you need a little extra</l>
+          <l>Well, get a supplement<note>The Unicode character encoding scheme arranges characters in blocks with a common script or theme, to which is given a descriptive name, e.g. Cyrillic. If another block is subsequently added for the same script, the name frequently takes the form ‘X supplement’, e.g. Cyrillic Supplement.</note></l>
+        </lg>
+
+        <lg>
+          <l>You may not be fluent</l>
+          <l>But you do not have to guess</l>
+          <l>Tell me what you need</l>
+          <l>Unicode Burlesque!</l>
+        </lg>
+
+        <lg>
+          <l>You can dream of Dodo<note>🦤 (U+1F9A4), <a href="https://graphemica.com/1F9AA4">https://graphemica.com/1F9A4</a></note></l>
+          <l>Use it at your risk</l>
+          <l>The triple underdot is<note>&#8424; (U+20E8), <a href="https://graphemica.com/20E8">https://graphemica.com/20E8</a></note></l>
+          <l>Not an ellipsis<note>… (U+2026), <a href="https://graphemica.com/2026">https://graphemica.com/2026</a></note></l>
+          <l>Cyrillic keeps you guessing</l>
+          <l>O multiocular<note>ꙮ (U+A66E), <a href="https://graphemica.com/A6EE">https://graphemica.com/A6EE</a></note></l>
+          <l>Elifi’s in Georgian<note>ჸ (U+10F8), <a href="https://graphemica.com/10F8">https://graphemica.com/10F8</a> </note></l>
+          <l>Unicode Burlesque!</l>
+        </lg>
+
+        <lg>
+          <l>Oh!</l>
+          <l>Everyone is writing</l>
+          <l>With their glyphs and accidence</l>
+          <l>If you need a little extra</l>
+          <l>Well, get a supplement</l>
+        </lg>
+
+        <lg>
+          <l>Something used in Batak</l>
+          <l>Is bindu na metek<note>᯼ (U+1BFC), <a href="https://graphemica.com/1BFC">https://graphemica.com/1BFC</a>. See also <a href="https://r12a.github.io/scripts/batk/btk.html#phrase">https://r12a.github.io/scripts/batk/btk.html#phrase</a> for more on the role of bindu in the Batak script.</note></l>
+          <l>It starts a verse that ends</l>
+          <l>With bindu pangolat<note>᯿ (U+1BFF), <a href="https://graphemica.com/1BFF">https://graphemica.com/1BFF</a></note></l>
+        </lg>
+
+        <lg>
+          <l>Show an ogham or</l>
+          <l>Show a little yus</l>
+          <l>Add an ogonek</l>
+          <l>Unicode Burlesque!</l>
+        </lg>
+      </sp>
+    </body>
+  </text>
+</TEI>
